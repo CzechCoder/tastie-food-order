@@ -1,0 +1,64 @@
+.cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 17rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .order-submitted {
+    padding: 15px 0;
+    text-align: center!important;
+  }
+
+  img {
+    width: 120px;
+    height: auto;
+  }
+
+  .ship-headline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button, .order-submitted button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid orange;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active,
+  .order-submitted button:hover,
+  .order-submitted button:active {
+    background-color: #ff4800;
+    border-color: #ff4800;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: orange;
+  }
+  
+  .actions .button {
+    background-color: orange;
+    color: white;
+  }
