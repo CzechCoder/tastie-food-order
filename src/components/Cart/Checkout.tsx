@@ -4,7 +4,7 @@ import classes from "./Checkout.module.css";
 
 // validation functions
 const isEmpty = (value: string) => value.trim() === "";
-const isFiveChars = (value: string) => value.toString().length === 5;
+const isFiveChars = (value: string) => value.length === 5;
 
 const Checkout = (props: CheckoutProps) => {
   const [formInputsValidity, setFormInputsValidity] = useState({
